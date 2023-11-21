@@ -1,21 +1,10 @@
 .pm-container {
-  background: #f6f0f9;
-  font: inherit;
+  background: #2c2c2c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 12px;
 }
-.pm-container2 {
-    background: #aa7ed3;
-    font: inherit;
-    padding: 12px;
-}
-.pm-container3 {
-    background: #D3D3D3;
-    font: inherit;
-    padding: 12px; 
-
-}
 .pm-headline {
-  color: #303;
+  color: #c2c2c2;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.2px;
@@ -44,7 +33,7 @@
 .pm-away-name,
 .pm-home-name {
   align-self: center;
-  color: #303;
+  color: #C2C2C2;
 }
 .pm-away-name {
   justify-self: end;
@@ -71,7 +60,7 @@
   width: 100%;
 }
 .pm-progress-container {
-  background: #fff;
+  background: black;
   border-radius: 70px;
   box-shadow: 0 1px 0 #fff, inset 0 1px 3px #fff;
   height: 15px;
@@ -79,7 +68,7 @@
 }
 .pm-progress-inner-left,
 .pm-progress-inner-right {
-  background: #609;
+  background: white;
   border-radius: 7px;
   height: 11px;
   margin: 2px;
@@ -103,7 +92,7 @@
 }
 
 .pm-sum-text {
-  color: #303;
+  color: #c2c2c2;
   font-size: 18px;
   line-height: 22px;
 }
@@ -113,15 +102,15 @@
   line-height: 14px;
 }
 .pm-metric.pm-text {
-  color: #609;
+  color: #c2c2c2;
 }
 .pm-away-metric-text {
   justify-self: end;
 }
 .pm-away-metric-text,
 .pm-home-metric-text {
-  color: #303;
-  font-size: 14px;
+  color: #c2c2c2;
+  font-size: 12px;
   font-weight: 400;
   line-height: 17px;
 }
@@ -154,10 +143,10 @@
   margin-right: 5px;
 }
 .pm-xg-value {
-  background: #d1b2e0;
+  background: #373737;
   border-radius: 2px;
   box-sizing: border-box;
-  color: #303;
+  color: #c2c2c2;
   display: inline-block;
   font-size: 14px;
   line-height: 17px;
@@ -192,8 +181,8 @@
 
 
 .pm-xg-scorer {
-  color: #303;
-  font-size: 16px;
+  color: #C2C2C2;
+  font-size: 15px;
   font-weight: 400;
   line-height: 26px;
 }
@@ -222,7 +211,7 @@
   display: flex;
 }
 .pm-logo-text {
-  color: #000;
+  color: #fff;
   font-size: 14px;
 }
 .pm-data-powered-text,
@@ -232,7 +221,7 @@
 }
 .pm-data-powered-text {
   align-self: center;
-  color: #303;
+  color: #c2c2c2;
   font-size: 12px;
   font-weight: 400;
 }
@@ -267,27 +256,14 @@
   --spider-btn-color: #001932;
   --text-team-color: #001932;
   align-items: center;
+  background: #2c2c2c;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   font: inherit;
   position: relative;
 }
-.pm-spider-container2 {
-  --home-color: #01377D;
-  --away-color: #B8E2F2;
-  --text-color: #fff;
-  --text-tooltip-color: #00427a;
-  --spider-btn-color: #001932;
-  --text-team-color: #001932;
-  align-items: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  font: inherit;
-  position: relative;
 
-}
 .pm-spider-container.dark {
   --text-team-color: #fff;
 }
@@ -308,7 +284,7 @@
 }
 .pm-spider-away-team,
 .pm-spider-home-team {
-  color: var(--text-team-color);
+  color: #c2c2c2;
 }
 .pm-spider-legend-team {
   align-items: center;
@@ -369,11 +345,11 @@
 }
 .pm-spider-tooltip-value-home {
   background: var(--home-color);
-  color: var(--text-color);
+  color: #c2c2c2;
 }
 .pm-spider-tooltip-value-away {
   background: var(--away-color);
-  color: var(--text-color);
+  color: #c2c2c2;
   margin-left: 8px;
 }
 .pm-spider-tooltip-label {
@@ -387,7 +363,7 @@
   background: var(--spider-btn-color);
   border: none;
   border-radius: 4px;
-  color: var(--text-color);
+  color: #c2c2c2;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
@@ -443,11 +419,12 @@
   justify-self: self-end;
 }
 .pm-x-row-team-name {
-  color: var(--text-color);
+  color: #c2c2c2;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.003em;
   line-height: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .pm-x-metric-row {
   display: flex;
@@ -456,7 +433,7 @@
 }
 .pm-x-metric-name {
   align-self: center;
-  color: var(--text-color);
+  color: #c2c2c2;
   display: inline-flex;
   flex: 1 1 0%;
   font-size: 12px;
@@ -464,6 +441,7 @@
   justify-content: center;
   letter-spacing: 0.003em;
   line-height: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .pm-x-row-metric-value {
   border-radius: 2px;
@@ -488,7 +466,7 @@
 }
 .pm-x-default-value {
   background: var(--default-color);
-  color: var(--text-color);
+  color: #c2c2c2;
 }
 @media screen and (max-width: 720px) {
   .pm-x-row-metric-value {

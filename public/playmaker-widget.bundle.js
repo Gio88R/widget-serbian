@@ -9061,12 +9061,12 @@
             topScorersXG: "topScorersXG",
           },
           i = {
-            xG: "Förväntade mål (xG)",
-            xGC: "Förväntade insläppta mål (xGC)",
-            averageScored: "Genomsnitt gjorda mål (Hela säsongen)",
-            averageConceded: "Genomsnitt insläppta mål (Hela säsongen)",
-            averageScoredBetween: "Genomsnitt gjorda mål inbördes (5 senaste)",
-            averageScoredHomeAndAway: "Genomsnitt gjorda mål hemma & borta",
+            xG: "Очекивани голови(xG)",
+            xGC: "Очекивани примљени голови (xГЦ)",
+            averageScored: "Просек постигнутих голова (цела сезона)",
+            averageConceded: "Просечан број примљених голова (цела сезона)",
+            averageScoredBetween: "Просечан број постигнутих голова (последњих 5)",
+            averageScoredHomeAndAway: "Просечни голови постигнути код куће и у гостима",
           };
         function u(e) {
           let {
@@ -9364,7 +9364,7 @@
                       (0, r.h)(
                         "h2",
                         { className: "pm-headline" },
-                        "Spelare med högst förväntade antal mål"
+                        "Играч са највећим очекиваним бројем голова"
                       )
                     ),
                     c({
@@ -9742,9 +9742,9 @@
           p = {
             light: {
               backgroundColor: "#00000000",
-              primary: "#001932",
-              innerLines: "#547099",
-              innerRadialLines: "#596D7F",
+              primary: "#c2c2c2",
+              innerLines: "#c2c2c2",
+              innerRadialLines: "#c2c2c2",
               home: "#ED0000",
               away: "#256FEA",
             },
@@ -9877,7 +9877,7 @@
                       y: e[3].y,
                       textAnchor: "middle",
                       verticalAnchor: "middle",
-                      lines: ["Fasta situationer", "(Offensiva)"],
+                      lines: ["Поправљене ситуације", "(Офанзивно)"],
                       isTop: !0,
                       theme: t,
                       padding: n,
@@ -9900,7 +9900,7 @@
                             e[3].y
                           ) + 180,
                       },
-                      "Chanser för"
+                      "Шансе за"
                     ),
                     i = (0, o.h)(
                       s.Text,
@@ -9920,14 +9920,14 @@
                             e[0].y
                           ) + 180,
                       },
-                      "Kontringar"
+                      "Контра напада"
                     ),
                     u = g({
                       x: e[0].x,
                       y: e[0].y,
                       verticalAnchor: "end",
                       textAnchor: "middle",
-                      lines: ["Fasta situationer", "(Defensiva)"],
+                      lines: ["Фиксне ситуације", "(одбрамбени)"],
                       theme: t,
                       padding: n,
                     }),
@@ -9948,7 +9948,7 @@
                           e[0].y
                         ),
                       },
-                      "Chanser emot"
+                      "Оддс против"
                     ),
                     c = (0, o.h)(
                       s.Text,
@@ -9967,7 +9967,7 @@
                           e[3].y
                         ),
                       },
-                      "Bollinnehav"
+                      "Поседовање лопте"
                     );
                   return [r, a, i, u, l, c];
                 })(re, W, L),
@@ -10154,7 +10154,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Fasta situationer (Offensiva)"
+                        "Фиксне ситуације (офанзивно)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10193,7 +10193,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Chanser (Offensiva)"
+                        "Шансе (офанзивно)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10238,7 +10238,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Kontringar"
+                        "Контра напада"
                       ),
                       (0, o.h)(
                         "div",
@@ -10283,7 +10283,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Fasta situationer (defensiva)"
+                        "Фиксне ситуације (одбрамбени)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10328,7 +10328,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Chanser (defensiva)"
+                        "Шансе (одбрана)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10373,7 +10373,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Bollinnehav"
+                        "Поседовање лопте"
                       ),
                       (0, o.h)(
                         "div",
@@ -10420,7 +10420,7 @@
                         },
                         className: "pm-spider-tooltip-btn",
                       },
-                      "Stäng"
+                      "Близу"
                     )
                   )
                 )
@@ -10731,17 +10731,17 @@
         var a,
           i = (a = n(6206)) && a.__esModule ? a : { default: a };
         const u = {
-          xG: "Förväntade mål (xG)",
-          xGC: "Förväntade insläppta mål (xGC)",
-          averageScored: "Genomsnitt gjorda mål (Hela säsongen)",
-          averageConceded: "Genomsnitt insläppta mål (Hela säsongen)",
-          averageScoredBetween: "Genomsnitt gjorda mål inbördes (5 senaste)",
-          averageScoredHomeAndAway: "Genomsnitt gjorda mål hemma & borta",
-          xp: "Förväntade poäng (xP)",
-          points: "Poäng",
-          xpPointsDiff: "Skillnad i xP/poäng",
-          expectedTablePosition: "Förväntad tabellplacering",
-          tablePosition: "Tabellplacering",
+          xG: "Очекивани голови (кГ)",
+          xGC: "Очекивани примљени голови (кГЦ)",
+          averageScored: "Просек постигнутих голова (цела сезона)",
+          averageConceded: "Просечан број примљених голова (цела сезона)",
+          averageScoredBetween: "Просек постигнутих голова mутуал (5 најновијих)", 
+          averageScoredHomeAndAway: "Просечни голови код куће и у гостима",
+          xp: "Очекивани поени (кП)",
+          points: "Тачка",
+          xpPointsDiff: "Разлика у кП/поенима",
+          expectedTablePosition: "Очекивана позиција стола",
+          tablePosition: "Постављање стола",
         };
         function l(e) {
           const t = (function (e, t, n) {

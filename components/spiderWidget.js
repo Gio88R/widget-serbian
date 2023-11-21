@@ -6,8 +6,8 @@ const realTestIds = [
 
 const widgets = {};
 const Button = styled.button`
-  background-color: black;
-  color: white;
+  background-color: #FFDE00;
+  color: black;
   font-size: 20px;
   padding: 10px 60px;
   opacity: 0.9;
@@ -18,7 +18,9 @@ const Button = styled.button`
 const ButtonGroup = styled.div`
   display: flex;
   justify-content: space-around;
+  background-color: #2c2c2c;
 `
+
 
 function SpiderWidget () {
     const [gameCounter, setGameCounter] = useState(0);
@@ -65,16 +67,16 @@ function SpiderWidget () {
     };
   }, [gameCounter, spiderClass]);
    return (
-    <div id="selector2">
+    <div id="selector2" style={{backgroundColor: '#2c2c2c' }}>
         <br></br>
         <br></br>
         <div className={spiderClass}>
         {/* Innehåll */}
       </div>
       <ButtonGroup>
-      <Button onClick={changeSpiderStyle}>Change Color</Button>
+      <Button onClick={changeSpiderStyle}>Цханге Стиле</Button>
 
-        <Button id="b14">Randomize game</Button>
+        <Button id="b14">Рандомизе гаме</Button>
         </ButtonGroup>
     </div>
   );

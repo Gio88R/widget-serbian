@@ -2,6 +2,7 @@ import Script from "next/script";
 import { useEffect, useState } from "react";
 import SpiderWidget from "@/components/spiderWidget";
 import Navigation from "@/components/navigationBtn";
+
 export function initPlaymakerWidget() {
   (function (w, d, s, o, f, js, fjs) {
     w["PlaymakerWidget"] = o;

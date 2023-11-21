@@ -6,8 +6,8 @@ const realTestIds = [41887923, 37844091, 41763079];
 const widgets = {};
 
 const Button = styled.button`
-  background-color: black;
-  color: white;
+  background-color: #FFDE00;
+  color: black;
   font-size: 20px;
   padding: 10px 60px;
   opacity: 0.9;
@@ -18,6 +18,7 @@ const Button = styled.button`
 const ButtonGroup = styled.div`
   display: flex;
   justify-content: space-around;
+  background-color: #2c2c2c;
 `;
 function XWidget() {
   const [gameCounter, setGameCounter] = useState(0);
@@ -104,13 +105,13 @@ function XWidget() {
 
   return (
     <>
-      <div id="selector3"></div>
-      <div id="selector4">
+      <div id="selector3"style={{backgroundColor: '#2c2c2c' }}></div>
+      <div id="selector4"style={{backgroundColor: '#2c2c2c' }}>
         
       </div>
       <ButtonGroup>
-        <Button id="b14">Randomize game</Button>
-        <Button onClick={changeTheme}>Change Style</Button>
+        <Button id="b14">Рандомизе гаме</Button>
+        <Button onClick={changeTheme}>Цханге Стиле</Button>
         </ButtonGroup>
     </>
   );
