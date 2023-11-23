@@ -31,7 +31,7 @@ export default function Test() {
         strategy="lazyOnload"
         onLoad={() => console.log("script loaded correctly, window.FB has been populated")}
       />
-      <Navigation/>
+     
       {isPlaymakerInitialized && <XWidget />} {}
     </>
   );

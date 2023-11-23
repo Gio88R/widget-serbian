@@ -22,7 +22,7 @@ const ButtonGroup = styled.div`
 `;
 function XWidget() {
   const [gameCounter, setGameCounter] = useState(0);
-  const [theme, setTheme] = useState("light");
+  /*const [theme, setTheme] = useState("light");*/
   const isUpdatingRef = useRef(false);
 
   const updateWidgets = () => {
@@ -33,8 +33,8 @@ function XWidget() {
     isUpdatingRef.current = true;
 
     const xId = realTestIds[gameCounter % realTestIds.length];
-    const xWidgetKey = `xWidget${gameCounter}-${theme}`;
-    const xgWidgetKey = `xgWidget${gameCounter}-${theme}`;
+    const xWidgetKey = `xWidget${gameCounter}`;
+    const xgWidgetKey = `xgWidget${gameCounter}`;
 
     if (widgets[xWidgetKey]) widgets[xWidgetKey].update({ matchId: xId });
     if (widgets[xgWidgetKey]) widgets[xgWidgetKey].update({ matchId: xId });
@@ -55,7 +55,7 @@ function XWidget() {
           "expectedTablePosition",
           "tablePosition",
         ],
-        theme: theme,
+        theme: "light",
       },
     });
 
@@ -72,12 +72,12 @@ function XWidget() {
           "averageScoredBetween",
           "averageScoredHomeAndAway",
         ],
-        theme: theme,
+        theme: "light",
       },
     });
 
-    widgets[`xWidget${gameCounter}-${theme}`] = xWidget;
-    widgets[`xgWidget${gameCounter}-${theme}`] = xgWidget;
+    widgets[`xWidget${gameCounter}`] = xWidget;
+    widgets[`xgWidget${gameCounter}`] = xgWidget;
 
     updateWidgets();
 
@@ -97,21 +97,19 @@ function XWidget() {
         updateWidgets();
       });
     };
-  }, [gameCounter, theme]);
+  }, [gameCounter]);
 
-  const changeTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-  };
 
   return (
     <>
-      <div id="selector3"style={{backgroundColor: '#2c2c2c' }}></div>
+      <div id="selector3"style={{backgroundColor: '#2c2c2c' }}></div> 
+      <div style={{ height: '4px' }}></div>
       <div id="selector4"style={{backgroundColor: '#2c2c2c' }}>
         
       </div>
       <ButtonGroup>
         <Button id="b14">Рандомизе гаме</Button>
-        <Button onClick={changeTheme}>Цханге Стиле</Button>
+
         </ButtonGroup>
     </>
   );

@@ -24,7 +24,7 @@ const ButtonGroup = styled.div`
 
 function SpiderWidget () {
     const [gameCounter, setGameCounter] = useState(0);
-    const [spiderClass, setSpiderClass] = useState("pm-spider-container");
+  /*  const [spiderClass, setSpiderClass] = useState("pm-spider-container");
     
     const changeSpiderStyle = () => {
       setSpiderClass((prevClass) => {
@@ -34,7 +34,7 @@ function SpiderWidget () {
           return "pm-spider-container";
         }
       });
-    };
+    };*/
 
     useEffect(() => {
         const spiderWidget = PM("addSpiderWidget", {
@@ -47,7 +47,7 @@ function SpiderWidget () {
            },
        });
        widgets["game1"] = spiderWidget;
-       const randomizeBtn = document.getElementById("b14");
+  /*     const randomizeBtn = document.getElementById("b14");
 
     randomizeBtn.addEventListener("click", () => {
       const nextCounter = gameCounter + 1;
@@ -64,21 +64,14 @@ function SpiderWidget () {
         const id = realTestIds[nextCounter % realTestIds.length];
         if (widgets["game1"]) widgets["game1"].update({ matchId: id });
       });
-    };
-  }, [gameCounter, spiderClass]);
+    };*/
+  }, [gameCounter]);
    return (
     <div id="selector2" style={{backgroundColor: '#2c2c2c' }}>
         <br></br>
         <br></br>
-        <div className={spiderClass}>
-        {/* Innehåll */}
-      </div>
-      <ButtonGroup>
-      <Button onClick={changeSpiderStyle}>Цханге Стиле</Button>
 
-        <Button id="b14">Рандомизе гаме</Button>
-        </ButtonGroup>
-    </div>
+         </div>
   );
 }
 export default SpiderWidget
