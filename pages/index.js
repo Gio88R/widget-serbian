@@ -2,11 +2,7 @@ import Script from "next/script";
 import { useEffect, useState } from "react";
 import GoalWidget from "@/components/goalWidget";
 import Navigation from "@/components/navigationBtn";
-<style jsx global>{`
-  body {
-    background: #c2c2c2;
-  }
-`}</style>
+
 export function initPlaymakerWidget() {
   (function (w, d, s, o, f, js, fjs) {
     w["PlaymakerWidget"] = o;

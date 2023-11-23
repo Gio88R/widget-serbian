@@ -110,7 +110,7 @@
 .pm-away-metric-text,
 .pm-home-metric-text {
   color: #c2c2c2;
-  font-size: 12px;
+  font-size: x-small;
   font-weight: 400;
   line-height: 17px;
 }
@@ -294,7 +294,7 @@
   justify-content: center;
 }
 .pm-spider-legend-home-square {
-  background-color: var(--home-color);
+  background-color: #FFDE00;
 }
 .pm-spider-legend-away-square,
 .pm-spider-legend-home-square {
@@ -305,7 +305,7 @@
   width: 14px;
 }
 .pm-spider-legend-away-square {
-  background-color: var(--away-color);
+  background-color: #0a612a;
 }
 .pm-spider-position-relative {
   position: relative;
@@ -344,12 +344,12 @@
   width: 33px;
 }
 .pm-spider-tooltip-value-home {
-  background: var(--home-color);
-  color: #c2c2c2;
+  background: #FFDE00;
+  color: black;
 }
 .pm-spider-tooltip-value-away {
-  background: var(--away-color);
-  color: #c2c2c2;
+  background: #0a612a;
+  color: white;
   margin-left: 8px;
 }
 .pm-spider-tooltip-label {
@@ -360,10 +360,10 @@
   line-height: 14px;
 }
 .pm-spider-tooltip-btn {
-  background: var(--spider-btn-color);
+  background: #FFDE00;
   border: none;
   border-radius: 4px;
-  color: #c2c2c2;
+  color: black;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
@@ -456,12 +456,12 @@
   width: 70px;
 }
 .pm-x-home-win {
-  background: var(--home-color);
+  background: #FFDE00;
   color: var(--text-win-color);
 }
 
 .pm-x-away-win {
-  background: var(--away-color);
+  background: #0a612a;
   color: var(--text-win-color);
 }
 .pm-x-default-value {

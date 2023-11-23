@@ -9745,8 +9745,8 @@
               primary: "#c2c2c2",
               innerLines: "#c2c2c2",
               innerRadialLines: "#c2c2c2",
-              home: "#ED0000",
-              away: "#256FEA",
+              home: "#FFDE00",
+              away: "#0a612a",
             },
             dark: {
               backgroundColor: "#00000000",
