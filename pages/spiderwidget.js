@@ -3,6 +3,9 @@ import { useEffect, useState } from "react";
 import SpiderWidget from "@/components/spiderWidget";
 import Navigation from "@/components/navigationBtn";
 import XWidget from "@/components/xWidget";
+<script src="https://kit.fontawesome.com/8cf7a5f73e.js" crossorigin="anonymous"></script>
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 export function initPlaymakerWidget() {
   (function (w, d, s, o, f, js, fjs) {
     w["PlaymakerWidget"] = o;
@@ -45,12 +48,16 @@ export default function Test() {
         strategy="lazyOnload"
         onLoad={() => console.log("script loaded correctly, window.FB has been populated")}
       />
+      
       <Navigation/> {}
       <div id="Spider-W">
+     
         {isPlaymakerInitialized && <SpiderWidget />}
       </div>
       <div id="X-widget">
+    
         {isPlaymakerXInitialized && <XWidget/>}
+      
       </div>
     </>
   );

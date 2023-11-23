@@ -23,7 +23,7 @@ const ButtonGroup = styled.div`
 return (
           <ButtonGroup>
           <Link href="/spiderwidget"> {}
-      <Button>SpiderWidget & Xwidget</Button>
+      <Button>Spider- & Xwidget</Button>
     </Link>
   
           <Link href="/"> {}
