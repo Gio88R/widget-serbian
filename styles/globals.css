@@ -457,12 +457,12 @@
 }
 .pm-x-home-win {
   background: #FFDE00;
-  color: var(--text-win-color);
+  color: black;
 }
 
 .pm-x-away-win {
   background: #0a612a;
-  color: var(--text-win-color);
+  color: white;
 }
 .pm-x-default-value {
   background: var(--default-color);
