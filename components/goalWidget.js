@@ -15,6 +15,9 @@ const Button = styled.button`
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;
+  @media (max-width: 720px) {
+    padding: 10px 5px;
+  }
 `;
 const ButtonGroup = styled.div`
   display: flex;

@@ -473,4 +473,9 @@
     min-width: 33px;
     width: 33px;
   }
+  @media screen and (max-width: 780px) {
+    .pm-x-metric-name {
+      font-size: 10px;
+    }
+}
 }
