@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import styled from "styled-components";
 
-const realTestIds = [41887923, 37844091, 41763079];
+const realTestIds = [41763099, 41763099, 41763099];
 
 const widgets = {};
 
@@ -36,8 +36,8 @@ function XWidget() {
     const xWidgetKey = `xWidget${gameCounter}`;
     const xgWidgetKey = `xgWidget${gameCounter}`;
 
-    if (widgets[xWidgetKey]) widgets[xWidgetKey].update({ matchId: xId });
-    if (widgets[xgWidgetKey]) widgets[xgWidgetKey].update({ matchId: xId });
+    if (widgets[xWidgetKey]) widgets[xWidgetKey].update({ matchId: "41763099" });
+    if (widgets[xgWidgetKey]) widgets[xgWidgetKey].update({ matchId: "41763099" });
 
     isUpdatingRef.current = false;
   };
@@ -81,7 +81,7 @@ function XWidget() {
 
     updateWidgets();
 
-    const randomizeBtn = document.getElementById("b14");
+ /*   const randomizeBtn = document.getElementById("b14");
 
     randomizeBtn.addEventListener("click", () => {
       const nextCounter = gameCounter + 1;
@@ -96,7 +96,7 @@ function XWidget() {
         setGameCounter(nextCounter);
         updateWidgets();
       });
-    };
+    }*/;
   }, [gameCounter]);
 
 
@@ -107,10 +107,7 @@ function XWidget() {
       <div id="selector4"style={{backgroundColor: '#2c2c2c' }}>
         
       </div>
-      <ButtonGroup>
-        <Button id="b14">Рандомизе гаме</Button>
 
-        </ButtonGroup>
     </>
   );
 }

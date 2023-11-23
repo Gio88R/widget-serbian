@@ -22,17 +22,15 @@ const ButtonGroup = styled.div`
 `
 return (
           <ButtonGroup>
-      
+          <Link href="/spiderwidget"> {}
+      <Button>SpiderWidget & Xwidget</Button>
+    </Link>
   
           <Link href="/"> {}
     <Button>GoalWidget</Button>
   </Link>
-    <Link href="/spiderwidget"> {}
-      <Button>SpiderWidget</Button>
-    </Link>
-    <Link href="/xwidget"> {}
-    <Button>XWidget</Button>
-  </Link>
+
+
   </ButtonGroup>
   );
 }

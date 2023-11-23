@@ -38,7 +38,7 @@ function SpiderWidget () {
 
     useEffect(() => {
         const spiderWidget = PM("addSpiderWidget", {
-            matchId: realTestIds[gameCounter % realTestIds.length],
+            matchId: "41763099",
             selectorId: "selector2",
             settings: {
                 displayMode: "entireSeason",

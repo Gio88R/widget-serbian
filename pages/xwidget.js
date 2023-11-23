@@ -1,7 +1,7 @@
 import Script from "next/script";
 import { useEffect, useState } from "react";
 import XWidget from "@/components/xWidget";
-import Navigation from "@/components/navigationBtn";
+
 
 export function initPlaymakerWidget() {
   (function (w, d, s, o, f, js, fjs) {

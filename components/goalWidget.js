@@ -23,7 +23,7 @@ const ButtonGroup = styled.div`
 `;
 
 function GoalWidget() {
-  const [gameCounter, setGameCounter] = useState(5);
+  const [gameCounter, setGameCounter] = useState(10);
   const goalWidgetRef = useRef(null);
 
   function randomizeGame() {
