@@ -48,7 +48,7 @@ export default function Test() {
         strategy="lazyOnload"
         onLoad={() => console.log("script loaded correctly, window.FB has been populated")}
       />
-      
+      <div className="widgetScale" style={{width: "35%"}}>
       <Navigation/> {}
       <div id="Spider-W">
      
@@ -58,6 +58,7 @@ export default function Test() {
     
         {isPlaymakerXInitialized && <XWidget/>}
       
+      </div>
       </div>
     </>
   );
