@@ -479,3 +479,12 @@
     }
 }
 }
+.widgetScale {
+  width: 35%;
+}
+
+@media screen and (max-width: 780px) {
+  .widgetScale {
+    width: 100%;
+  }
+}

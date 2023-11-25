@@ -48,7 +48,7 @@ export default function Test() {
         strategy="lazyOnload"
         onLoad={() => console.log("script loaded correctly, window.FB has been populated")}
       />
-      <div className="widgetScale" style={{width: "35%"}}>
+      <div className="widgetScale">
       <Navigation/> {}
       <div id="Spider-W">
      
