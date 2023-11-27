@@ -9877,7 +9877,7 @@
                       y: e[3].y,
                       textAnchor: "middle",
                       verticalAnchor: "middle",
-                      lines: ["Поправљене ситуације", "(Офанзивно)"],
+                      lines: ["Set Pieces", "(Offensive)"],
                       isTop: !0,
                       theme: t,
                       padding: n,
@@ -9900,7 +9900,7 @@
                             e[3].y
                           ) + 180,
                       },
-                      "Шансе за"
+                      "Opportunities for"
                     ),
                     i = (0, o.h)(
                       s.Text,
@@ -9920,14 +9920,14 @@
                             e[0].y
                           ) + 180,
                       },
-                      "Контра напада"
+                      "Counterattacks"
                     ),
                     u = g({
                       x: e[0].x,
                       y: e[0].y,
                       verticalAnchor: "end",
                       textAnchor: "middle",
-                      lines: ["Фиксне ситуације", "(одбрамбени)"],
+                      lines: ["Set Pieces", "(Defensive)"],
                       theme: t,
                       padding: n,
                     }),
@@ -9948,7 +9948,7 @@
                           e[0].y
                         ),
                       },
-                      "Оддс против"
+                      "Opportunities against"
                     ),
                     c = (0, o.h)(
                       s.Text,
@@ -9967,7 +9967,7 @@
                           e[3].y
                         ),
                       },
-                      "Поседовање лопте"
+                      "Possession"
                     );
                   return [r, a, i, u, l, c];
                 })(re, W, L),
@@ -10154,7 +10154,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Фиксне ситуације (офанзивно)"
+                        "Set Pieces (Offensive)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10193,7 +10193,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Шансе (офанзивно)"
+                        "Opportunities For"
                       ),
                       (0, o.h)(
                         "div",
@@ -10238,7 +10238,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Контра напада"
+                        "Counterattacks"
                       ),
                       (0, o.h)(
                         "div",
@@ -10283,7 +10283,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Фиксне ситуације (одбрамбени)"
+                        "Set Pieces (Defensive)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10328,7 +10328,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Шансе (одбрана)"
+                        "Opportunities (Defensive)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10373,7 +10373,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Поседовање лопте"
+                        "Possession"
                       ),
                       (0, o.h)(
                         "div",
@@ -10420,7 +10420,7 @@
                         },
                         className: "pm-spider-tooltip-btn",
                       },
-                      "Близу"
+                      "Close"
                     )
                   )
                 )
@@ -10731,17 +10731,17 @@
         var a,
           i = (a = n(6206)) && a.__esModule ? a : { default: a };
         const u = {
-          xG: "Очекивани голови (кГ)",
-          xGC: "Очекивани примљени голови (кГЦ)",
-          averageScored: "Просек постигнутих голова (цела сезона)",
-          averageConceded: "Просечан број примљених голова (цела сезона)",
-          averageScoredBetween: "Просек постигнутих голова mутуал (5 најновијих)", 
-          averageScoredHomeAndAway: "Просечни голови код куће и у гостима",
-          xp: "Очекивани поени (кП)",
-          points: "Тачка",
-          xpPointsDiff: "Разлика у кП/поенима",
-          expectedTablePosition: "Очекивана позиција стола",
-          tablePosition: "Постављање стола",
+          xG: "Epected Goals (xG)",
+          xGC: "Expected Goals Conceded (xGC)",
+          averageScored: "Average Goals Scored (Season Total)",
+          averageConceded: "Average Goals Conceded (Season Total)",
+          averageScoredBetween: "Average Goals Scored Against Opponents (Last 5 Matches)", 
+          averageScoredHomeAndAway: "Average Goals Scored at Home & Away",
+          xp: "Expected Points (xP)",
+          points: "Points",
+          xpPointsDiff: "Difference in xP/Points",
+          expectedTablePosition: "Expected Table Position",
+          tablePosition: "Current Table Position",
         };
         function l(e) {
           const t = (function (e, t, n) {

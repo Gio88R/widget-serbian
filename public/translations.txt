@@ -1,0 +1,63 @@
+Headlines svs-widget:
+Fördjupat lagstatistik: In-depth Team Statistics // Över spider
+Förväntade poäng (xP): Expected Points (xP) // xWidget xP
+Målstatistik (xG): Goal Statistics (xG) // xWidget xG
+
+------------------------------------------------------------
+Info bubbles:
+Spider
+Swe: I spindeldiagrammet visas sex olika parametrar för att se vad respektive lag är bra på. Det bygger på en skala 0-1 och ett helt komplett lag täcker hela diagrammet. Om laget inte har några chanser mot sig ligger siffran på 1 och längst ut i diagrammet.
+Eng: The spider diagram illustrates six different parameters to assess each team's strengths. It is based on a scale of 0-1, where a complete team covers the entire diagram. If a team faces no chances against them, the figure is 1, located at the outermost edge of the diagram.
+------------------------------------------------------------
+xWidget 
+Swe: xP = Expected points. De förväntade poängen är baserat på hur laget statistiskt har presterat snarare än det faktiska utfallet. Utifrån varje given målchans går det att använda sannolikheten och simulera olika resultat hur ofta ett lag borde ha vunnit respektive spelat oavgjort eller förlorat.
+Eng: xP = Expected Points. Expected points are based on how the team has statistically performed rather than the actual outcome. Using the probability from each given goal chance, it is possible to simulate different results, indicating how often a team should have won, drawn, or lost.
+
+Swe: xG = Expected goals. Förväntat antal mål som ett lag gör baserat på deras chanser. xGC = Expected goals conceded. Antal mål ett lag förväntas släppa in baserat på chanserna de släpper mot eget mål.
+Eng: xG = Expected Goals. The expected number of goals a team is predicted to score based on their chances. xGC = Expected Goals Conceded. The number of goals a team is expected to concede based on the chances they allow towards their own goal.
+------------------------------------------------------------
+Bundle const swe:
+xG: "Förväntade mål (xG)",
+xGC: "Förväntade insläppta mål (xGC)",
+averageScored: "Genomsnitt gjorda mål (Hela säsongen)",
+averageConceded: "Genomsnitt insläppta mål (Hela säsongen)",
+averageScoredBetween: "Genomsnitt gjorda mål inbördes (5 senaste)",
+averageScoredHomeAndAway: "Genomsnitt gjorda mål hemma & borta",
+xp: "Förväntade poäng (xP)",
+points: "Poäng",
+xpPointsDiff: "Skillnad i xP/poäng",
+expectedTablePosition: "Förväntad tabellplacering",
+tablePosition: "Tabellplacering",
+
+Bundle const eng:
+
+xG: "Expected Goals (xG)"
+xGC: "Expected Goals Conceded (xGC)"
+averageScored: "Average Goals Scored (Season Total)"
+averageConceded: "Average Goals Conceded (Season Total)"
+averageScoredBetween: "Average Goals Scored Against Opponents (Last 5 Matches)"
+averageScoredHomeAndAway: "Average Goals Scored at Home & Away"
+xp: "Expected Points (xP)"
+points: "Points"
+xpPointsDiff: "Difference in xP/Points"
+expectedTablePosition: "Expected Table Position"
+tablePosition: "Current Table Position"
+
+------------------------------------------------
+Sve/Eng spider topics:
+Fasta situationer (Offensiva): Set Pieces (Offensive) - row 9880 bundle
+Chanser för: Opportunities For   -       row 9903 bundle
+Kontringar: Counterattacks  -        row 9923
+Fasta situationer (Defensiva): Set Pieces (Defensive)      - row 9930
+Chanser emot: Opportunities Against           - row 9951
+Bollinnehav: Possession         - row 9970
+
+Sve/eng spiderdetails:
+
+Fasta situationer (Offensiva): Set Pieces (Offensive) - row 10157 bundle
+Chanser (Offensiva): Opportunities for (Offensive)  - row 10196 bundle
+Kontringar: Counterattacks      - row 10241 bundle
+Fasta situationer (Defensiva): Set Pieces (Defensive)   - row 10286 bundle
+Chanser (Defensiva): Opportunities (Defensive)    - row 10331 bundle
+Bollinnehav: Possession   - row 10376 bundle
+Stäng: Close    -  row 10423 bundle

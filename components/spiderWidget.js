@@ -94,14 +94,14 @@ function SpiderWidget () {
   }, [gameCounter]);
    return (
     <div>
-    <span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '5px'}}> Produbljena statistika tima</span>
+    <span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '5px'}}> In-depth Team Statistics</span>
     <IconWrapper>
       <FontAwesomeIcon 
         icon={faInfoCircle} 
         style={{color: 'white'}}
         onClick={() => setShowTooltip(!showTooltip)}
       />
-      {showTooltip && <Tooltip show={showTooltip}>U dijagramu paučine prikazuje se šest različitih parametara kako bi se videlo u čemu je određeni tim dobar. Bazira se na skali od 0 do 1, a potpuno kompletan tim pokriva celo dijagram. Ako tim nema šansi protiv sebe, broj je 1 i nalazi se na samom vrhu dijagrama.</Tooltip>}
+      {showTooltip && <Tooltip show={showTooltip}>The spider diagram illustrates six different parameters to assess each team's strengths. It is based on a scale of 0-1, where a complete team covers the entire diagram. If a team faces no chances against them, the figure is 1, located at the outermost edge of the diagram.</Tooltip>}
     </IconWrapper>
     <div id="selector2" style={{backgroundColor: '#2c2c2c' }}>
 

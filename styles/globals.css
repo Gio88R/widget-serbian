@@ -437,6 +437,7 @@
   display: inline-flex;
   flex: 1 1 0%;
   font-size: 12px;
+  padding-left: 20px;
   font-weight: 400;
   justify-content: center;
   letter-spacing: 0.003em;
