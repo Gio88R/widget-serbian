@@ -9061,12 +9061,12 @@
             topScorersXG: "topScorersXG",
           },
           i = {
-            xG: "Очекивани голови(xG)",
-            xGC: "Очекивани примљени голови (xГЦ)",
-            averageScored: "Просек постигнутих голова (цела сезона)",
-            averageConceded: "Просечан број примљених голова (цела сезона)",
-            averageScoredBetween: "Просечан број постигнутих голова (последњих 5)",
-            averageScoredHomeAndAway: "Просечни голови постигнути код куће и у гостима",
+            xG: "Expected Goals (xG)",
+            xGC: "Expected Goals Conceded (xGC)",
+            averageScored: "Average Goals Scored (Season Total)",
+            averageConceded: "Average Goals Conceded (Season Total)",
+            averageScoredBetween: "Average Goals Scored Against Opponents (Last 5 Matches)",
+            averageScoredHomeAndAway: "Average Goals Scored at Home & Away",
           };
         function u(e) {
           let {
@@ -9364,7 +9364,7 @@
                       (0, r.h)(
                         "h2",
                         { className: "pm-headline" },
-                        "Играч са највећим очекиваним бројем голова"
+                        "Players with the highest xG"
                       )
                     ),
                     c({

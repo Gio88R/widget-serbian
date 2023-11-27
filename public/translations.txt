@@ -44,7 +44,7 @@ expectedTablePosition: "Expected Table Position"
 tablePosition: "Current Table Position"
 
 ------------------------------------------------
-Sve/Eng spider topics:
+Swe/Eng spider topics:
 Fasta situationer (Offensiva): Set Pieces (Offensive) - row 9880 bundle
 Chanser för: Opportunities For   -       row 9903 bundle
 Kontringar: Counterattacks  -        row 9923
@@ -52,7 +52,7 @@ Fasta situationer (Defensiva): Set Pieces (Defensive)      - row 9930
 Chanser emot: Opportunities Against           - row 9951
 Bollinnehav: Possession         - row 9970
 
-Sve/eng spiderdetails:
+Swe/eng spiderdetails:
 
 Fasta situationer (Offensiva): Set Pieces (Offensive) - row 10157 bundle
 Chanser (Offensiva): Opportunities for (Offensive)  - row 10196 bundle
@@ -61,3 +61,43 @@ Fasta situationer (Defensiva): Set Pieces (Defensive)   - row 10286 bundle
 Chanser (Defensiva): Opportunities (Defensive)    - row 10331 bundle
 Bollinnehav: Possession   - row 10376 bundle
 Stäng: Close    -  row 10423 bundle
+
+
+------------------------------------------------------------
+xWidget bundle, from row 9055 swe:
+            xG: "xG",
+            xGC: "xGC",
+            averageScored: "averageScored",
+            averageConceded: "averageConceded",
+            averageScoredBetween: "averageScoredBetween",
+            averageScoredHomeAndAway: "averageScoredHomeAndAway",
+            topScorersXG: "topScorersXG"
+
+
+            xG: "Förväntade mål (xG)",
+            xGC: "Förväntade insläppta mål (xGC)",
+            averageScored: "Genomsnitt gjorda mål (Hela säsongen)",
+            averageConceded: "Genomsnitt insläppta mål (Hela säsongen)",
+            averageScoredBetween: "Genomsnitt gjorda mål inbördes (5 senaste)",
+            averageScoredHomeAndAway: "Genomsnitt gjorda mål hemma & borta",
+            
+xWidget bundle, from row 9055 eng:
+
+  xG: "xG",
+  xGC: "xGC",
+  averageScored: "averageScored",
+  averageConceded: "averageConceded",
+  averageScoredBetween: "averageScoredBetween",
+  averageScoredHomeAndAway: "averageScoredHomeAndAway",
+  topScorersXG: "topScorersXG",
+
+  xG: "Expected Goals (xG)",
+  xGC: "Expected Goals Conceded (xGC)",
+  averageScored: "Average Goals Scored (Season Total)",
+  averageConceded: "Average Goals Conceded (Season Total)",
+  averageScoredBetween: "Average Goals Scored Against Opponents (Last 5 Matches)",
+  averageScoredHomeAndAway: "Average Goals Scored at Home & Away",
+
+Spelare med högst förväntade antal mål/Players with the highest xG - Row 9367
+
+----------------------------------------------

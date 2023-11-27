@@ -79,7 +79,7 @@ function GoalWidget() {
  
     </div>
          <ButtonGroup>
-         <Button onClick={randomizeGame}>Рандомизе гаме</Button>
+         <Button onClick={randomizeGame}>Randomize Game</Button>
          </ButtonGroup>
          </div>
   );
