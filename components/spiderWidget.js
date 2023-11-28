@@ -94,7 +94,7 @@ function SpiderWidget () {
   }, [gameCounter]);
    return (
     <div>
-    <span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '5px'}}> In-depth Team Statistics</span>
+    <span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '5px'}}> Detaljna statistika timova</span>
     <IconWrapper>
       <FontAwesomeIcon 
         icon={faInfoCircle} 

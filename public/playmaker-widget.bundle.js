@@ -9061,12 +9061,12 @@
             topScorersXG: "topScorersXG",
           },
           i = {
-            xG: "Expected Goals (xG)",
-            xGC: "Expected Goals Conceded (xGC)",
-            averageScored: "Average Goals Scored (Season Total)",
-            averageConceded: "Average Goals Conceded (Season Total)",
-            averageScoredBetween: "Average Goals Scored Against Opponents (Last 5 Matches)",
-            averageScoredHomeAndAway: "Average Goals Scored at Home & Away",
+            xG: "očekivani golovi (xG)",
+            xGC: "očekivani golovi (xGc)",
+            averageScored: "Prosek postignutih golova u sezoni",
+            averageConceded: "Prosek primljenih golova u sezoni",
+            averageScoredBetween: "Prosek primljenih golova u sezoni",
+            averageScoredHomeAndAway: "Prosek postignutih golova domacin/gost",
           };
         function u(e) {
           let {
@@ -9877,7 +9877,7 @@
                       y: e[3].y,
                       textAnchor: "middle",
                       verticalAnchor: "middle",
-                      lines: ["Set Pieces", "(Offensive)"],
+                      lines: ["Ofanzivni prekid"],
                       isTop: !0,
                       theme: t,
                       padding: n,
@@ -9900,7 +9900,7 @@
                             e[3].y
                           ) + 180,
                       },
-                      "Opportunities for"
+                      "Gol prilike (Napad)"
                     ),
                     i = (0, o.h)(
                       s.Text,
@@ -9920,14 +9920,14 @@
                             e[0].y
                           ) + 180,
                       },
-                      "Counterattacks"
+                      "Kontra napadi"
                     ),
                     u = g({
                       x: e[0].x,
                       y: e[0].y,
                       verticalAnchor: "end",
                       textAnchor: "middle",
-                      lines: ["Set Pieces", "(Defensive)"],
+                      lines: ["Defanzivni prekid"],
                       theme: t,
                       padding: n,
                     }),
@@ -9948,7 +9948,7 @@
                           e[0].y
                         ),
                       },
-                      "Opportunities against"
+                      "Gol prilike (Odbrana)"
                     ),
                     c = (0, o.h)(
                       s.Text,
@@ -9967,7 +9967,7 @@
                           e[3].y
                         ),
                       },
-                      "Possession"
+                      "Posed lopte"
                     );
                   return [r, a, i, u, l, c];
                 })(re, W, L),
@@ -10154,7 +10154,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Set Pieces (Offensive)"
+                        "Ofanzivni prekid"
                       ),
                       (0, o.h)(
                         "div",
@@ -10193,7 +10193,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Opportunities For"
+                        "Gol prilike (Napad)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10238,7 +10238,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Counterattacks"
+                        "Kontra Napadi"
                       ),
                       (0, o.h)(
                         "div",
@@ -10283,7 +10283,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Set Pieces (Defensive)"
+                        "Defanzivni prekid"
                       ),
                       (0, o.h)(
                         "div",
@@ -10328,7 +10328,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Opportunities (Defensive)"
+                        "Gol prilike (Odbrana)"
                       ),
                       (0, o.h)(
                         "div",
@@ -10373,7 +10373,7 @@
                       (0, o.h)(
                         "div",
                         { className: "pm-spider-tooltip-label" },
-                        "Possession"
+                        "Posed lopte"
                       ),
                       (0, o.h)(
                         "div",
@@ -10731,17 +10731,17 @@
         var a,
           i = (a = n(6206)) && a.__esModule ? a : { default: a };
         const u = {
-          xG: "Epected Goals (xG)",
-          xGC: "Expected Goals Conceded (xGC)",
-          averageScored: "Average Goals Scored (Season Total)",
-          averageConceded: "Average Goals Conceded (Season Total)",
-          averageScoredBetween: "Average Goals Scored Against Opponents (Last 5 Matches)", 
-          averageScoredHomeAndAway: "Average Goals Scored at Home & Away",
-          xp: "Expected Points (xP)",
-          points: "Points",
-          xpPointsDiff: "Difference in xP/Points",
-          expectedTablePosition: "Expected Table Position",
-          tablePosition: "Current Table Position",
+          xG: "Očekivani golovi (napad) (xG)",
+          xGC: "Očekivani golovi (odbrana) (xGC)",
+          averageScored: "Prosek postignutih golova u sezoni",
+          averageConceded: "Prosek primljenih golova u sezoni",
+          averageScoredBetween: "Prosek postignutih golova H2H (zadnjih 5 meceva)", 
+          averageScoredHomeAndAway: "Prosek postignutih golova domacin/gost",
+          xp: "Očekivani bodovi(oB)",
+          points: "Bodovi",
+          xpPointsDiff: "Razlika izmedju oB/Bodovi",
+          expectedTablePosition: "Očekivana pozicija na tabeli",
+          tablePosition: "Pozicija na tabeli",
         };
         function l(e) {
           const t = (function (e, t, n) {

@@ -3,6 +3,11 @@ Fördjupat lagstatistik: In-depth Team Statistics // Över spider
 Förväntade poäng (xP): Expected Points (xP) // xWidget xP
 Målstatistik (xG): Goal Statistics (xG) // xWidget xG
 
+Serbian:
+
+Fördjupat lagstatistik: Detaljna statistika timova
+Expected points: očekivani bodovi(oB)
+Goal Statistics (xG)- Golovi statistika (xG)
 ------------------------------------------------------------
 Info bubbles:
 Spider
@@ -16,7 +21,8 @@ Eng: xP = Expected Points. Expected points are based on how the team has statist
 Swe: xG = Expected goals. Förväntat antal mål som ett lag gör baserat på deras chanser. xGC = Expected goals conceded. Antal mål ett lag förväntas släppa in baserat på chanserna de släpper mot eget mål.
 Eng: xG = Expected Goals. The expected number of goals a team is predicted to score based on their chances. xGC = Expected Goals Conceded. The number of goals a team is expected to concede based on the chances they allow towards their own goal.
 ------------------------------------------------------------
-Bundle const swe:
+Bundle const, ROW 9064 + 10734
+Swe:
 xG: "Förväntade mål (xG)",
 xGC: "Förväntade insläppta mål (xGC)",
 averageScored: "Genomsnitt gjorda mål (Hela säsongen)",
@@ -43,6 +49,19 @@ xpPointsDiff: "Difference in xP/Points"
 expectedTablePosition: "Expected Table Position"
 tablePosition: "Current Table Position"
 
+Bundle const serbian:
+
+xG: "očekivani golovi(napad) (xG)",
+xGC: "očekivani golovi(odbrana) (xGc)",
+averageScored: "Prosek postignutih golova u sezoni",
+averageConceded: "Prosek primljenih golova u sezoni",
+averageScoredBetween: "Prosek postignutih golova H2H (zadnjih 5 meceva)",
+averageScoredHomeAndAway: "Prosek postignutih golova domacin/gost",
+Expected points: "očekivani bodovi(xP)"
+Points: "bodovi"
+Difference xp/point: "Razlika izmedju oB/Bodovi"
+Expected table position: "Očekivana pozicija na tabeli"
+Table position: "Pozicija na tabeli"
 ------------------------------------------------
 Swe/Eng spider topics:
 Fasta situationer (Offensiva): Set Pieces (Offensive) - row 9880 bundle
@@ -52,7 +71,7 @@ Fasta situationer (Defensiva): Set Pieces (Defensive)      - row 9930
 Chanser emot: Opportunities Against           - row 9951
 Bollinnehav: Possession         - row 9970
 
-Swe/eng spiderdetails:
+Swe/eng spider details:
 
 Fasta situationer (Offensiva): Set Pieces (Offensive) - row 10157 bundle
 Chanser (Offensiva): Opportunities for (Offensive)  - row 10196 bundle
@@ -62,7 +81,21 @@ Chanser (Defensiva): Opportunities (Defensive)    - row 10331 bundle
 Bollinnehav: Possession   - row 10376 bundle
 Stäng: Close    -  row 10423 bundle
 
+Eng/Serbian spider Topics:  
+Set Pieces (offensive): ofanzivni prekid  - row 9880 bundle
+Set Pieces (defensive): defanzivni prekid  - row 9930 bundle
+Ball Possession: posed lopte  - row 9970
+Chances for: gol prilike (napad)   - row 9903 bundle
+Chances against: gol prilike (odbrana)  - row 9951 bundle
+Counter Attacks: kontra napadi  -  row 9923
 
+Eng/Serbian spider details:
+Set Pieces (offensive): ofanzivni prekid  - row 10157 bundle
+Set Pieces (defensive): defanzivni prekid  - row 10286 bundle
+Opportunities for (offensive): gol prilike (napad)  -  row 10196 bundle
+Opportunities against (defensive): gol prilike (odbrana)  - row 10331 bundle 
+Counter Attacks: kontra napadi  - row 10241 bundle
+Ball Possession: posed lopte  - row 10376 bundle
 ------------------------------------------------------------
 xWidget bundle, from row 9055 swe:
             xG: "xG",
@@ -99,5 +132,23 @@ xWidget bundle, from row 9055 eng:
   averageScoredHomeAndAway: "Average Goals Scored at Home & Away",
 
 Spelare med högst förväntade antal mål/Players with the highest xG - Row 9367
+
+
+xWidget bundle, from row 9055 serbian:
+
+  xG: "xG",
+  xGC: "xGC",
+  averageScored: "averageScored",
+  averageConceded: "averageConceded",
+  averageScoredBetween: "averageScoredBetween",
+  averageScoredHomeAndAway: "averageScoredHomeAndAway",
+  topScorersXG: "topScorersXG",
+
+  xG: "očekivani golovi(napad) (xG)",
+  xGC: "očekivani golovi(odbrana) (xGc)",
+  averageScored: "Prosek postignutih golova u sezoni",
+  averageConceded: "Prosek primljenih golova u sezoni",
+  averageScoredBetween: "Prosek primljenih golova u sezoni",
+  averageScoredHomeAndAway: "Prosek postignutih golova domacin/gost",
 
 ----------------------------------------------

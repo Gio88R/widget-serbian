@@ -127,7 +127,7 @@ function XWidget() {
   return (
     <>
     <div>
-<span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '10px'}}> Expected Points (xP)</span></div>
+<span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '10px'}}> Očekivani bodovi(oB)</span></div>
     <IconWrapper>
       <FontAwesomeIcon 
         icon={faInfoCircle} 
@@ -142,7 +142,7 @@ function XWidget() {
 
     <div style={{ height: '1px' }}></div>
     <div>
-<span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '10px'}}> Goal Statistics (xG)</span></div>
+<span style={{display: 'flex', justifyContent: 'center', color: '#c2c2c2', fontFamily: 'sans-serif', backgroundColor: '#2c2c2c', paddingTop: '10px'}}> Golovi statistika (xG)</span></div>
     <IconWrapper>
       <FontAwesomeIcon 
         icon={faInfoCircle} 
