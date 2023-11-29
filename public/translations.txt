@@ -13,13 +13,16 @@ Info bubbles:
 Spider
 Swe: I spindeldiagrammet visas sex olika parametrar för att se vad respektive lag är bra på. Det bygger på en skala 0-1 och ett helt komplett lag täcker hela diagrammet. Om laget inte har några chanser mot sig ligger siffran på 1 och längst ut i diagrammet.
 Eng: The spider diagram illustrates six different parameters to assess each team's strengths. It is based on a scale of 0-1, where a complete team covers the entire diagram. If a team faces no chances against them, the figure is 1, located at the outermost edge of the diagram.
+Serb: Dijagram ilustruje šest različitih parametara za procenu snage svakog tima. Baziran je na skali od 0 do 1, gde kompletan tim pokriva ceo dijagram. Ako protivnički tim nema šansi, vrednost je 1 i nalazi se na spoljnoj ivici dijagrama.
 ------------------------------------------------------------
 xWidget 
 Swe: xP = Expected points. De förväntade poängen är baserat på hur laget statistiskt har presterat snarare än det faktiska utfallet. Utifrån varje given målchans går det att använda sannolikheten och simulera olika resultat hur ofta ett lag borde ha vunnit respektive spelat oavgjort eller förlorat.
 Eng: xP = Expected Points. Expected points are based on how the team has statistically performed rather than the actual outcome. Using the probability from each given goal chance, it is possible to simulate different results, indicating how often a team should have won, drawn, or lost.
+Serb: xP = Očekivani bodovi. Očekivani bodovi se baziraju na statističkom performansu tima umesto stvarnog ishoda. Koristeći verovatnoću svake date šanse za gol, moguće je simulirati različite rezultate, ukazujući na to koliko često bi tim trebalo da pobedi, odigra nerešeno ili izgubi. Očekivana pozicija na tabeli pokazuje na kojoj poziciji se tim nalazi na tabeli na osnovu xP. Posmatranje xP i očekivane pozicije na tabeli je način detaljnijeg procenjivanja stvarnog performansa tima umesto samo posmatranja stvarnih rezultata.
 
-Swe: xG = Expected goals. Förväntat antal mål som ett lag gör baserat på deras chanser. xGC = Expected goals conceded. Antal mål ett lag förväntas släppa in baserat på chanserna de släpper mot eget mål.
-Eng: xG = Expected Goals. The expected number of goals a team is predicted to score based on their chances. xGC = Expected Goals Conceded. The number of goals a team is expected to concede based on the chances they allow towards their own goal.
+Swe: xG + xGC = Expected goals. Förväntat antal mål som ett lag gör baserat på deras chanser. xGC = Expected goals conceded. Antal mål ett lag förväntas släppa in baserat på chanserna de släpper mot eget mål.
+Eng: xG + xGC = Expected Goals. The expected number of goals a team is predicted to score based on their chances. xGC = Expected Goals Conceded. The number of goals a team is expected to concede based on the chances they allow towards their own goal.
+Serb: xG + xGC = Očekivani golovi. Broj golova koje se postići da će tim postići na osnovu svojih šansi. xGC = Očekivani primljeni golovi. Broj golova koje se očekuje da će tim primiti na osnovu šansi koje dozvoljavaju ka svom golu.
 ------------------------------------------------------------
 Bundle const, ROW 9064 + 10734
 Swe:

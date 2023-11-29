@@ -101,7 +101,7 @@ function SpiderWidget () {
         style={{color: 'white'}}
         onClick={() => setShowTooltip(!showTooltip)}
       />
-      {showTooltip && <Tooltip show={showTooltip}>The spider diagram illustrates six different parameters to assess each team's strengths. It is based on a scale of 0-1, where a complete team covers the entire diagram. If a team faces no chances against them, the figure is 1, located at the outermost edge of the diagram.</Tooltip>}
+      {showTooltip && <Tooltip show={showTooltip}>Dijagram ilustruje šest različitih parametara za procenu snage svakog tima. Baziran je na skali od 0 do 1, gde kompletan tim pokriva ceo dijagram. Ako protivnički tim nema šansi, vrednost je 1 i nalazi se na spoljnoj ivici dijagrama.</Tooltip>}
     </IconWrapper>
     <div id="selector2" style={{backgroundColor: '#2c2c2c' }}>
 

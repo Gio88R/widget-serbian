@@ -134,7 +134,7 @@ function XWidget() {
         style={{color: 'white'}}
         onClick={() => setShowTooltip(!showTooltip)}
       />
-      {showTooltip && <Tooltip show={showTooltip}>xP = Expected Points. Expected points are based on how the team has statistically performed rather than the actual outcome. Using the probability from each given goal chance, it is possible to simulate different results, indicating how often a team should have won, drawn, or lost.</Tooltip>}
+      {showTooltip && <Tooltip show={showTooltip}>Očekivani bodovi se baziraju na statističkom performansu tima umesto stvarnog ishoda. Koristeći verovatnoću svake date šanse za gol, moguće je simulirati različite rezultate, ukazujući na to koliko često bi tim trebalo da pobedi, odigra nerešeno ili izgubi. Očekivana pozicija na tabeli pokazuje na kojoj poziciji se tim nalazi na tabeli na osnovu xP. Posmatranje xP i očekivane pozicije na tabeli je način detaljnijeg procenjivanja stvarnog performansa tima umesto samo posmatranja stvarnih rezultata.</Tooltip>}
     </IconWrapper>
     
     <div id="selector3" style={{backgroundColor: '#2c2c2c' }}>
@@ -149,8 +149,8 @@ function XWidget() {
         style={{color: 'white'}}
         onClick={() => setShowTooltip2(!showTooltip2)}
       />
-      {showTooltip2 && <Tooltip show={showTooltip2}>xG = Expected Goals. The expected number of goals a team is predicted to score based on their chances.
-     <br></br>xGC = Expected Goals Conceded. The number of goals a team is expected to concede based on the chances they allow towards their own goal.</Tooltip>}
+      {showTooltip2 && <Tooltip show={showTooltip2}>xG = Očekivani golovi. Broj golova koje se postići da će tim postići na osnovu svojih šansi.
+     <br></br>xGC = Očekivani primljeni golovi. Broj golova koje se očekuje da će tim primiti na osnovu šansi koje dozvoljavaju ka svom golu.</Tooltip>}
     </IconWrapper>
     <div id="selector4" style={{backgroundColor: '#2c2c2c' }}>
     </div>

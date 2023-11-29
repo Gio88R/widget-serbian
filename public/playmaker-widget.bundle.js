@@ -9364,7 +9364,7 @@
                       (0, r.h)(
                         "h2",
                         { className: "pm-headline" },
-                        "Players with the highest xG"
+                        "Igraci sa najvise sansi (xG)"
                       )
                     ),
                     c({
@@ -10420,7 +10420,7 @@
                         },
                         className: "pm-spider-tooltip-btn",
                       },
-                      "Close"
+                      "Zatvori"
                     )
                   )
                 )
