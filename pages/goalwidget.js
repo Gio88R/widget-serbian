@@ -32,12 +32,13 @@ export default function Test() {
         strategy="lazyOnload"
         onLoad={() => console.log("script loaded correctly, window.FB has been populated")}
       />
-      <div className="widgetScale" style={{width: "35%"}}>
+      <div className="widgetScale">
         <Navigation/> {}
   
       
       {isPlaymakerInitialized && <GoalWidget />} {/* Använd GoalWidget-komponenten här */}
-      </div></>
+      </div>
+      </>
   );
 }
 

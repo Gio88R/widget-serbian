@@ -75,6 +75,7 @@ function GoalWidget() {
 }, [gameCounter]); 
   return (
     <div>
+      
     <div id="selector1">
  
     </div>

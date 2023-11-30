@@ -471,8 +471,9 @@
 }
 @media screen and (max-width: 720px) {
   .pm-x-row-metric-value {
-    min-width: 33px;
-    width: 33px;
+    min-width: 40px;
+    max-width: fit-content;
+    
   }
   @media screen and (max-width: 780px) {
     .pm-x-metric-name {
