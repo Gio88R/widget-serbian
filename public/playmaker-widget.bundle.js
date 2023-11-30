@@ -9936,7 +9936,7 @@
                       {
                         x: e[5].x,
                         y: e[5].y,
-                        fontSize: 14,
+                        fontSize: 11,
                         fontWeight: 500,
                         fill: t.primary,
                         verticalAnchor: "end",
